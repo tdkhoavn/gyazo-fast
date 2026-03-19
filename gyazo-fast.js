@@ -107,7 +107,7 @@ async function uploadToGyazo(imagePath, config) {
 // --- 4. LAUNCH SCREENSHOT PORTAL ---
 function main() {
     // Path to your config file
-    let configPath = GLib.build_filenamev([GLib.get_home_dir(), '.config', '.gyazo.config.yml']);
+    let configPath = GLib.build_filenamev([GLib.get_home_dir(), '.gyazo.config.yml']);
     let config = loadConfig(configPath);
     if (!config) return;
 

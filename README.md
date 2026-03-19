@@ -19,7 +19,7 @@ A lightweight GJS script that captures a screenshot via the XDG Desktop Portal a
 
 ## Configuration
 
-Create a config file at `~/.config/.gyazo.config.yml`:
+Create a config file at `~/.gyazo.config.yml`:
 
 ```yaml
 host: gyazo.example.com
